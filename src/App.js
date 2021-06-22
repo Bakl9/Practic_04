@@ -1,10 +1,16 @@
 import logo from './logo.svg';
 import './App.css';
+import Menu from'./NewComponent/Menu';
+import Ccomponent from'./NewComponent/Ccomponent';
+import Fcomponent from'./NewComponent/Fcomponent';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
+      <header className="App-header">       
+        <Ccomponent 
+        numbers={[1,2,3,4,5]}
+        />
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
